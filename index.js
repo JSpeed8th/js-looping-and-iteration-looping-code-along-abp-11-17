@@ -5,7 +5,7 @@
 //   }
 //   return employeeNames;
 // }
-// 
+//
 // function tailsNeverFails() {
 //   let counter = 0;
 //   while (Math.random() >= 0.5){
@@ -16,6 +16,10 @@
 //   return `You got ${counter} tails in a row!`;
 // }
 
-for (let age = 30; age < 40; age++) {
-  console.log(`I'm ${age} years old. Happy birthday to me!`);
+function printBadges (employeeName) {
+  for (i = 0; i < employeeName.length; i++) {
+    console.log(`Welcome ${employeeName[i]}! You are employee # ${0}.`)
+  }
+
+  return employeeName;
 }
