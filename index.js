@@ -23,3 +23,11 @@ function printBadges (employeeName) {
 
   return employeeName;
 }
+
+function tailsNeverFails() {
+  while (Math.random > .5) {
+    let i = 1++;
+  }
+
+  return `You got ${i} tails in a row!`
+}
