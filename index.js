@@ -18,7 +18,7 @@
 
 function printBadges (employeeName) {
   for (i = 0; i < employeeName.length; i++) {
-    console.log(`Welcome ${employeeName[i]}! You are employee #${employeeName.length}.`);
+    console.log(`Welcome ${employeeName[i]}! You are employee #${i + 1}.`);
   }
 
   return employeeName;
